@@ -1,5 +1,6 @@
 # Sass & Scss
-![Uploading Sccs.jpg…]()
+
+![Sccs](https://github.com/user-attachments/assets/8c4ce02e-7668-4b9c-9d8e-bb58285aad9a)
 
 *This Project covers the below topics*
 
