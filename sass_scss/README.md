@@ -1,5 +1,6 @@
 # Sass & Scss
 
+![Sccs](https://github.com/user-attachments/assets/9349c3ae-a439-4fd6-ac2a-802dea5c4bff)
 
 *This Project covers the below topics*
 
