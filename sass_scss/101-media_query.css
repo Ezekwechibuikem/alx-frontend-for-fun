@@ -1,8 +1,0 @@
-/* Media query #0 */
-h1 {
-  font-size: 20px; }
-  @media screen and (max-width: 320px) {
-    h1 {
-      font-size: 14px; } }
-
-/*# sourceMappingURL=101-media_query.css.map */
