@@ -1,0 +1,60 @@
+/*
+Error: File to import not found or unreadable: 10-colors.
+       Load path: /home/jbventure/ALX/alx-frontend-for-fun/sass_scss
+        on line 3 of 10-import_colors.scss
+
+1: /* Import colors *\/
+2: 
+3: @import '10-colors';
+4: 
+5: .red {
+6:   color: $red; 
+7: }
+8: 
+
+Backtrace:
+10-import_colors.scss:3
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:468:in `update_stylesheet'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:354:in `watch_or_update'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/bin/sass:8:in `<top (required)>'
+/usr/bin/sass:25:in `load'
+/usr/bin/sass:25:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: 10-colors.\A        Load path: /home/jbventure/ALX/alx-frontend-for-fun/sass_scss\A         on line 3 of 10-import_colors.scss\A \A 1: /* Import colors */\A 2: \A 3: @import '10-colors';\A 4: \A 5: .red {\A 6:   color: $red; \A 7: }\A 8: "; }
